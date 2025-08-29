@@ -5,14 +5,17 @@ import './lib/pollyfil';
 
 const wPlace = new WPlace(true);
 
+
+// https://backend.wplace.live/files/s0/tiles/757/1159.png
 const start = {
-    col: 1126,
-    row: 695
+    col: 757,
+    row: 1159
 } satisfies Chunk;
 
+// https://backend.wplace.live/files/s0/tiles/760/1162.png
 const end = {
-    col: 1129,
-    row: 697
+    col: 760,
+    row: 1162
 } satisfies Chunk;
 
 (async () => {
